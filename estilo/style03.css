@@ -1,0 +1,158 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+main{
+    background-color: #444654;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+   
+}
+   
+   
+
+.sidebar{
+    width: 60px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    transition: ease-in-out 0.3s;
+    overflow: hidden;
+    background-color: #202123;
+    
+}
+
+.sidebar:hover{
+    width: 200px;
+   
+}
+
+.sidebar:hover > .item > .text{
+    opacity: 1;
+}
+
+
+.item{
+    display: flex;
+    margin: 20px 0px;
+    align-items: center;
+}
+.icon1{
+    width: 40px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-bottom: 700px;
+    fill: #424242;
+}
+
+.text1{
+   
+    color: white;
+    margin-bottom: 700px;
+   opacity: 1;
+   transition: ease-in-out 0.3s;
+   margin-left: 15px;
+   transition-delay: .2s;
+   white-space: nowrap;
+
+}
+.item .icon{
+    width: 40px;
+    height: 20px;
+    flex-shrink: 0;
+    fill: #424242;
+}
+
+.item .text{
+    opacity: 1;
+    transition: ease-in-out 0.3s;
+    transition-delay: .2s;
+    margin-left: 15px;
+    white-space: nowrap;
+    color: white;
+}
+
+.conteiner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#cabecalho > h1{
+    margin-bottom: 20px;
+    margin-left: -160px;
+    color: white;
+    
+}
+
+h1{
+    color: white;
+    margin-left: 36px;
+    margin-top: -25px;
+}
+
+
+#imagens > img{
+   
+    width: 30px;
+    margin-right: 247px;
+    margin-bottom: 50px;
+}
+
+#foto1{
+    margin-left: 61px;
+    
+}
+
+#row1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.col > .pr{
+   margin-bottom: 16px;
+    text-align: justify;
+    background-color: #8E8E9E;
+    width: 230px;
+    height: 63px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#colunas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 175px;
+}
+
+.col{
+    margin: 20px;
+}
+
+input{
+    width: 780px;
+    padding: 10px;
+    background-color: #8E8E9E;
+    margin-left: -175px;
+    margin-top: 50px;
+    
+}
+
+

@@ -92,11 +92,13 @@ p{
 
 p > a{
     color: #0FA47F;
+    text-decoration: none;
 }
 
 
 label{
     text-align: left;
+    color: #0FA47F;
 }
 
 
