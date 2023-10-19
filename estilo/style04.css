@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+main{
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #343541;
+   
+}
+   
+   
+
+.sidebar{
+    width: 60px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    transition: ease-in-out 0.3s;
+    overflow: hidden;
+    background-color: #202123;
+    
+    
+    
+}
+
+.sidebar:hover{
+    width: 260px;
+   
+}
+
+
+.sidebar:hover > .item > .text{
+    opacity: 1;
+}
+
+.item{
+    display: flex;
+    margin: 20px 0px;
+    align-items: center;
+}
+hr{
+    margin-top: -20px;
+}
+
+.icon1{
+    width: 40px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-bottom: 700px;
+    
+}
+
+.text1{
+   
+    color: white;
+    margin-bottom: 700px;
+   opacity: 1;
+   transition: ease-in-out 0.3s;
+   margin-left: 15px;
+   transition-delay: .2s;
+   white-space: nowrap;
+
+}
+.item .icon{
+    width: 40px;
+    height: 20px;
+    flex-shrink: 0;
+    
+}
+
+.item .text{
+    opacity: 1;
+    transition: ease-in-out 0.3s;
+    transition-delay: .2s;
+    margin-left: 15px;
+    white-space: nowrap;
+    color: white;
+}
+
+#conteiner{
+    width: 100%;
+    
+   
+}
+
+#conteiner > #cabecalho{
+    margin-left: 300px;
+    margin-top: 23px;
+    margin-bottom: 20px;
+}
+
+#conteiner > #cabecalho h1{
+    color: white;
+    font-size: 25px;
+}
+
+
+
+#conteiner > #cabecalho > #img1{
+    margin-left: -60px;
+    margin-bottom: -37px;
+}
+
+#mid{
+    width: 100%;
+    height: 180px;
+    background-color: #C5C5D1;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+}
+
+#mid > p{
+    width: 628px;
+    height: 108px;
+    text-align: justify;
+    line-height: 1.7;
+}
+
+#mid > #fotogpt{
+   margin-top: -87px;
+   margin-right: 26px;
+}
+
+#mid > #fotolikes{
+    margin-left: 37px;
+    margin-bottom: 80px;
+}
+
+#footer{
+    margin-top: 500px;
+    text-align: center;
+}
+
+
+#footer > input{
+    width: 768px;
+}
+    
