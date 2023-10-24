@@ -87,6 +87,14 @@ hr{
     color: white;
 }
 
+.item .text > a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+
 #conteiner{
     width: 100%;
     
