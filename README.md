@@ -29,7 +29,7 @@ Você pode conferir o design da interface no [link do Figma](https://www.figma.c
 
 ## Preview
 
-![GPT](https://lucasmiguel2003.github.io/Clone-GPT/)
+![foto-gpt2](https://github.com/LucasMiguel2003/Clone-GPT/assets/127208684/cea03ed8-f0be-4f73-b1f3-bd9169677cf7)
 
 
 ## Deploy
